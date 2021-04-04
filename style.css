@@ -68,8 +68,6 @@ button:hover {
     color: #3a3a3a;
 }
 
-/* add-item-section */
-
 #add-item {
     display: flex;
 }
@@ -83,8 +81,6 @@ button:hover {
     flex-grow: 1;
     border-bottom: none;
 }
-
-/* to-do-section */
 
 li {
     overflow: hidden;
@@ -116,8 +112,6 @@ button.delete img:hover {
     transform: rotateZ(0);
 }
 
-/* Heading */
-
 .headers {
     display: block;
     margin: 0 0 20px;
@@ -148,8 +142,6 @@ ul li .input-text {
 .input-text:focus {
     color: #333;
 }
-
-/* Edit Task */
 
 ul li input[type=text] {
     display: none;
