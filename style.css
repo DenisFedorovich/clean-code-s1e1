@@ -1,21 +1,34 @@
-/* Basic Style */
+/* header */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0 auto;
+    font-family: Lato, sans-serif;
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
 }
-.aaa {
+
+.matrix {
+    width: 100%;
+    display: block;
     width: 500px;
     margin: 0 auto;
-    display: block;
     text-align: right;
 }
-.aaa img {
+
+.matrix-picture {
     width: 100%;
 }
-.aaa .more_inf {
+
+.eisenhower-matrix__information {
     font-family: fantasy, cursive;
 }
+
+/* body */
+
 
 @media (max-width:768px) {
 .aaa { text-align: center;
@@ -24,7 +37,7 @@ body {
 .centered-main-page-element {
     display: block;
     width: 500px;
-    margin: 0 auto 0;
+    margin: 0 auto;
 }
 .task {
     width: 56%;
